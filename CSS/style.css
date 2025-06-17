@@ -14,7 +14,7 @@ p {
     color: white;
 }
 #home {
-    background-image: url(./IMG/imagem\ capa.jpg);
+    background-image: url(../IMG/imagem\ capa.jpg);
     background-repeat: no-repeat;
     background-size: 1550px 1550px;
     background-position-y: -550px;}
