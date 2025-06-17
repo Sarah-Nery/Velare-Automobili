@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+}
+div {
+    border: 2px solid black; height: 800px;
+}
+p {
+    color: white;
+}
+#home {
+    background-image: url(./IMG/imagem\ capa.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 1550px;
+    background-position-y: -550px;}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.header {
+    font-size: 50px;
+}
+#tracinhos{
+    width: 100px;
+    height: 70px;
+    margin-top: 03px;
+}
+#logo{
+    width: 100px;
+    height: 70px;
+    margin-top: -07px;
+    margin-right: 150px;
+}
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(../Font/Cinzel-Bold.otf);
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: Cinzel-Bold;
+    margin-top: 100px;
+    margin-left: -900px;
+    position: absolute;
+}
+@font-face {
+    font-family: CinzelDecorative-Bold;
+    src: url(../Font/CinzelDecorative-Bold.otf);
+}
+#subtítulo01{
+    font-family: CinzelDecorative-Bold;
+    font-size:25px;
+    margin-top: 300px;
+    margin-left: -900px;
+    position: absolute;
+}
+#subtítulo02{
+    font-family: CinzelDecorative-Bold;
+    font-size:20px;
+    margin-top: 700px;
+    margin-left: 900px;
+    position: absolute;
+}
+#história{
+    background-image: linear-gradient(rgba(49, 21, 26), rgba(92, 47, 53, 0.5)),url(../IMG/image.png);
+    background-repeat: no-repeat;
+    background-size: 1550px 950px;
+    background-position-y: -150px; 
+}
+#header02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header02{
+    font-size: 50px;
+}
+#HT{
+    font-family: Cinzel-Bold;
+    font-size: 30px;
+    margin-left: -900px;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 80px;
+    background-color: #311319a1;
+}
+#fundador{
+    font-family: Cinzel-Bold;
+    font-size: 30px;
+    margin-top: 420px;
+    margin-left: 500px;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 80px;
+    background-color: #311319a1;
+}
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(../Font/Cinzel-Regular.otf);
+}
+#intro{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: -100px;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    width: 1300px;
+    height: 200px;
+    background-color: #4a1d2695;
+}
+#Fund{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    width: 800px;
+    height: 200px;
+    margin-top: 520px;
+    margin-left: 400px;
+    background-color: #4a1d2695;
+}
+#IMG1{
+    width: 400px;
+    height: 390px;
+    margin-top: 380px;
+    margin-left: -900px;
+    position: absolute;
+}
+#header03{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.header03{
+    font-size: 50px;
+}
+#Serviços{
+    background-color: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%);
+}
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(../Font/Cinzel-Bold.otf);
+}
+#Serv{
+    font-size: 50px;
+    font-family: Cinzel-Bold;
+    margin-left: 100px;
+}
+#IMG2{
+    width: 400px;
+    height: 400px;
+    margin-top: 200px; 
+    margin-left: -30px;
+    position: absolute;
+}
+#Paragráfo{
+    font-family: Cinzel-Bold;
+    font-size: 30px;
+    margin-top: 600px;
+    text-align: center;
+    position: absolute;
+}
+#Saiba{
+    font-family: Cinzel-Bold;
+    font-size: 30px;
+    margin-top: 680px;
+    text-align: center;
+    position: absolute;
+}
+#header04{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.header04{
+    font-size: 50px;
+}
+#Produtos{
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%);
+}
+#Produ{
+    font-size: 50px;
+    font-family: Cinzel-Bold;
+    margin-left: 50px;
+}
+#Velaré{
+    width: 250px;
+    height: 250px;
+    margin-top: 190px;
+    margin-left: -1200px;
+    position: absolute;
+}
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(../Font/Cinzel-Regular.otf);
+}
+#clássi{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 450px;
+    margin-left: -1220px;
+    position: absolute;
+}
+#Velaré02{
+    width: 250px;
+    height: 250px;
+    margin-top: 190px;
+    margin-left: 50px;
+    position: absolute;
+}
+#Real{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 450px;
+    margin-left: 50px;
+    position: absolute;
+}
+#Velaré03{
+    width: 250px;
+    height: 250px;
+    margin-top: 190px;
+    margin-left: 1200px;
+    position: absolute;
+}
+#Furo{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 450px;
+    margin-left: 1200px;
+    position: absolute;
+}
+#Velaré04{
+    width: 250px;
+    height: 250px;
+    margin-top: 500px;
+    margin-left: -1200px;
+    position: absolute;
+}
+#Fulmi{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: -1200px;
+    position: absolute;
+}
+#Velaré05{
+    width: 250px;
+    height: 250px;
+    margin-top: 500px;
+    margin-left: 50px;
+    position: absolute;
+}
+#Ele{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: 50px;
+    position: absolute;
+}
+#Velaré06{
+    width: 250px;
+    height: 250px;
+    margin-top: 500px;
+    margin-left: 1200px;
+    position: absolute;
+}
+#Auro{
+    font-family: Cinzel-Regular;
+    font-size: 20px;
+    margin-top: 760px;
+    margin-left: 1200px;
+    position: absolute;
+}
+#header05{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.header05{
+    font-size: 50px;
+}
+#Final{
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%);
+}
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(../Font/Cinzel-Bold.otf);
+}
+#Reg{
+    color: white;
+    font-family: Cinzel-Bold;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: -900px;
+    position: absolute;
+}
+#Brasil{
+    width: 60px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: -1200px;
+    position: absolute;
+}
+#Idioma{
+    font-family: Cinzel-Bold;
+    font-size: 25px;
+    margin-top: 160px;
+    margin-left: -800px;
+    position: absolute;
+}
+#uni{
+    font-family: Cinzel-Bold;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: -900px;
+    position: absolute;
+}
+#Dúvidas{
+    font-family: Cinzel-Bold;
+    font-size: 25px;
+    margin-top: 350px;
+    margin-left: -900px;
+    position: absolute;
+}
+#caixa{
+    font-family: Cinzel-Bold;
+    font-size: 25px;
+    margin-top: 450px;
+    margin-left: -900px;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #36181E; 
+    background-color: #1f0c1072;
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+#Arroba{
+    font-family: Cinzel-Bold;
+    font-size: 15px;
+    margin-top: 520px;
+    margin-left: -900px;
+    position: absolute;
+}
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(../Font/Cinzel-Regular.otf);
+}
+#título{
+    font-family: Cinzel-Regular;
+    font-size: 50px;
+    margin-top: 290px;
+    margin-left: 200px;
+    position: absolute;
+}
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(../Font/Cinzel-Bold.otf);
+}
+#Mídias{
+    font-family: Cinzel-Bold;
+    font-size: 25px;
+    margin-top: 350px;
+    margin-left: 400px;
+    position: absolute;
+}
+#Twitter{
+    width: 50px;
+    height: 60px;
+    margin-top: 400px;
+    margin-left: -100px;
+    position: absolute;
+}
+#Facebook{
+    width: 60px;
+    height: 60px;
+    margin-top: 405px;
+    margin-left: -20px;
+    position: absolute;
+}
+#Instagram{
+    width: 50px;
+    height: 60px;
+    margin-top: 401px;
+    margin-left: 90px;
+    position: absolute;
+}
+#In{
+    width: 50px;
+    height: 50px;
+    margin-top: 405px;
+    margin-left: 200px;
+    position: absolute;
+}
+#whatsapp{
+    width: 60px;
+    height: 60px;
+    margin-top: 403px;
+    margin-left: 300px;
+    position: absolute;
+}
+#Pinterest{
+    width: 50px;
+    height: 60px;
+    margin-top: 405px;
+    margin-left: 404px;
+    position: absolute;
+}
+#direitos{
+    font-family: Cinzel-Bold;
+    font-size: 20px;
+    position: absolute;
+    width: 1200px;
+    margin-top: 750px;
+    margin-left: -300px;
+}
+
+
